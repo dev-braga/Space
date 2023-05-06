@@ -37,6 +37,7 @@ for (var i = 0; i < radios.length; i++) {
         tab2Active.style.display = "none";
         tab3Active.style.display = "none";
         tab4Active.style.display = "none";
+        fecharMenu()
     }
     else if(radios[1].checked){
         item2.style.background = "#fff"
@@ -48,6 +49,7 @@ for (var i = 0; i < radios.length; i++) {
         tab2Active.style.display = "block";
         tab3Active.style.display = "none";
         tab4Active.style.display = "none";
+        fecharMenu()
     }
     else if(radios[2].checked){
         item3.style.background = "#fff"
@@ -60,6 +62,7 @@ for (var i = 0; i < radios.length; i++) {
         tab2Active.style.display = "none";
         tab3Active.style.display = "block";
         tab4Active.style.display = "none";
+        fecharMenu()
         
     }
     else if(radios[3].checked){
@@ -72,9 +75,15 @@ for (var i = 0; i < radios.length; i++) {
         tab2Active.style.display = "none";
         tab3Active.style.display = "none";
         tab4Active.style.display = "block";
+        fecharMenu()
     }
     
   });
+}
+
+function fecharMenu(){
+    document.querySelector(".item-link").style.marginRight = "-550px"
+    document.querySelector(".header").style.overflowY = "auto"
 }
 
 function mudarImage1(){
