@@ -1,0 +1,429 @@
+@media (min-width: 600px) and (max-width: 900px){
+    /*== ESTILIZACAO DO NAVBAR ======= =====  ==*/
+    
+    section nav{
+        padding-top: 0;
+        display: grid;
+        grid-template-columns: 2fr 0fr 3fr;
+        align-items: center;
+    }
+    section nav ul span{ 
+        display: none;
+    }
+    section nav ul label{
+        padding: 2.2em 0;
+        font-size: 12px;
+    }
+    nav ul .item-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;   
+    }
+    .item-logo{ /* ESPACAMENTO NA LOGO*/
+        margin-left: 2em;
+        margin-bottom: 1em;
+    }
+    .item-logo img{
+        width: 45px;
+    }
+    .container-label{
+        margin: 0 7px;
+    }
+    .item-space{
+      z-index: 0;
+    }
+    /*== ESTILIZACAO DA SECTION HOME ======= =====  ==*/
+    /*== ESTILIZACAO DA SECTION HOME ======= =====  ==*/
+    /*== ESTILIZACAO DA SECTION HOME ======= =====  ==*/
+
+    section .section-home{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container-text-home{
+        width: 100%;
+        display: flex;
+        text-align: center;
+      }
+      section .section-home h3{
+        width: 100%;
+        color: var(--light-purple);
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 1.2em;
+        margin-top: 10%;
+        padding-left: 0%;
+      }
+      section .section-home h1{
+        width: 100%;
+        font-size: 8em;
+        color:var(--white);
+        padding-left: 0%;
+        font-family: 'Bellefair', sans-serif;
+      }
+      section .section-home p{
+        width: 100%;
+        font-weight: 200;
+        font-size: 1.2em;
+        padding-left: 0%;
+        padding: 0 25%;
+        font-family: 'Barlow Condensed', sans-serif;
+        color: var(--light-purple);
+      }
+
+      .container-explore{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    
+    /*== ESTILIZACAO DO BOTAO HOME ======= =====  ==*/
+    /*== ESTILIZACAO DO BOTAO HOME ======= =====  ==*/
+    /*== ESTILIZACAO DO BOTAO HOME ======= =====  ==*/
+    .btn-explore{
+        padding: 30% 20%;
+    }
+    .btn-explore h2{
+        font-weight: 400;
+        font-size: 27px;
+    }
+    .container-explore{
+        position: absolute;
+        bottom: 5rem;
+    }
+    .btn-explore:hover{
+        -webkit-box-shadow: 0px 0px 0px 58px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 0px 0px 58px rgba(0,0,0,0.75);
+        box-shadow: 0px 0px 0px 58px rgba(255, 255, 255, 0.1);
+    }
+
+    /*== ESTILIZACAO DA TELA DESTINATION ======= =====  ==*/
+    /*== ESTILIZACAO DA TELA DESTINATION ======= =====  ==*/
+    /*== ESTILIZACAO DA TELA DESTINATION ======= =====  ==*/
+
+    .section-destination{
+        display: flex;
+        flex-direction: column;
+    }
+    .title-destination{
+        width: 100%;
+        letter-spacing: 3px;
+        font-size: 1.2em;
+        margin-left: 7%;
+        margin-top: 3%;
+        margin-bottom: 7%;
+    }
+    .container-abas{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .container-img-destination{
+        height: 40vh;
+        width: 75%;
+        padding-left:0%;
+    }
+    .title-img-destination{
+        padding-left: 1%;
+    }
+    .container-img-destination img{
+        width: 60%;
+        padding-bottom: 2rem;
+    }
+    .container-text-destination .title h1{
+        font-size: 5rem;
+    }
+    .container-item-aba{
+        margin-right: 2rem;
+    }
+    .container-right{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: -5%;
+        margin-left: 0%;
+        width: 75%;
+    }
+    .text-info{
+        width: 100%;
+        margin-bottom: 10%;
+    }
+
+    #descricao-planet{
+        width: 100%;
+        font-size: 14px;
+    }
+    .separator{
+        width: 100%;
+        height: 1px;
+        background-color: rgba(208, 214, 249, 0.199);
+    }
+    .bottom-text{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .info-bottom-column1{
+        margin-top: 5%;
+        margin-right: 3rem;
+    }
+    .info-bottom-column2{
+    margin-top: 5%;
+    margin-left: 3rem;
+    }
+    .info-bottom-column1 h5{
+    font-size: 12px;
+    letter-spacing: 1px;
+    }
+    .info-bottom-column2 h5{
+    font-size: 12px;
+    letter-spacing: 1px;
+    }
+
+    /*== ESTILIZACAO DA TELA CREW ======= =====  ==*/
+    /*== ESTILIZACAO DA TELA CREW ======= =====  ==*/
+    /*== ESTILIZACAO DA TELA CREW ======= =====  ==*/  
+    #title-crew-span{
+        font-weight: 600;
+        color: #929292; 
+    }
+    #title-crew{
+        position: relative;
+        letter-spacing: 3px;
+        font-size: 1.2em;
+        margin-left: 5%;
+        margin-top: 3%;
+    }
+    
+    /* ======== SLIDER ============= SLIDER =========== */
+    .slider {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0px 0;
+    }
+      
+    .slider-container {
+        position: relative;
+        display: flex;
+        width: 100%;
+        overflow: hidden;
+        height: 88vh;
+    }
+    
+    .slider-item {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        display: none;
+        width: 100%;
+        height: 100%;
+        transition: opacity 1s ease-in-out;
+    }
+    
+    .slider-item.active {
+        display: flex;
+        opacity: 1;
+    }
+    
+    .slider-text {
+       position: absolute;
+       top: 20%;
+       left: 50%;
+       flex-direction: column;
+       text-align: center;
+       width: 80%;
+       color: #fff;
+    }
+    .slider-text h3 {
+        width: 100%;
+        font-size: 25px;
+        font-family: 'Bellefair', sans-serif;
+        color: #8f8f8f;
+        margin-bottom
+        : 0.8rem;
+    }
+    
+    .slider-text h1 {
+        text-transform: uppercase;
+        font-family: 'Bellefair';
+        font-size: 2.7em; 
+        font-weight: 200;
+    }
+    
+    .slider-text p {
+        width: 100%;
+        font-size: 20px;
+        margin-top: 0.8rem;
+        line-height: 2rem;
+        font-family: 'Barlow', sans-serif;
+        font-weight: 200;
+        color: var(--light-purple);
+        max-lines: 2;
+    }
+    
+    .slider-image {
+        position: absolute;
+        transform: translateX(-50%);
+        bottom: 0;
+        top: auto;
+    }
+    
+    .slider-image img {
+        height: auto;
+        width: 100%;
+    }
+    
+    .slider-dots {
+        position: absolute;
+        top: 38%;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+    }
+    
+    .slider-dot {
+        width: 13px;
+        height: 13px;
+        border-radius: 50%;
+        background-color: #5c5c5c;
+        margin: 0 8px;
+        cursor: pointer;
+    }
+    .slider-dot:hover{
+        background-color: #6e6e6e;
+    }
+    .slider-dot.active {
+        background-color: #fff;
+    }
+      
+    /* FIM DO SLIDER ====================== */
+    /*== ESTILIZACAO DA TELA TECHNOLOGY ======= =====  ==*/ 
+
+    .sliderTech-container {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 85vh;
+    }
+      
+    .sliderTech-buttons {
+        margin-top: 50%;
+        display: flex;
+        flex-direction: row;
+        margin-left:0%;
+    }
+    
+    .sliderTech-button {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        margin: 15px 8px;
+        font-size: 23px;
+    }
+    .sliderTech-button:hover{
+        border: 1px solid #fff;
+    }
+
+    
+    .sliderTech-button.active {
+        text-align: center;
+        background-color: var(--white);
+        color: #0B0D17;
+    }
+    
+    .sliderTech-content {
+        width: 70%;
+    }
+    
+    .sliderTech-slide {
+        display: none;
+    }
+    
+    .sliderTech-slide.active {
+        display: flex;
+    }
+    
+    .sliderTech-slide h3 {
+        font-size: 17px;
+        text-transform: uppercase;
+        font-family: 'Barlow Condensed', sans-serif;
+        color: var(--light-purple);
+        font-weight: 100;
+        letter-spacing: 2px;
+        margin-bottom: 0.8rem;
+        margin-top: 1rem;
+    }
+    
+    .sliderTech-slide h1 {
+        text-transform: uppercase;
+        font-family: 'Bellefair';
+        color: var(--white);
+        font-size: 3em; 
+        font-weight: 200;
+    }
+    
+    .sliderTech-slide p {
+        width: 100%;
+        font-size: 18px;
+        margin-top: 0.8rem;
+        line-height: 1.8rem;
+        font-family: 'Barlow', sans-serif;
+        font-weight: 200;
+        color: var(--light-purple);
+    }
+    .sliderTech-text-tech{
+        width: 100%;
+        text-align: center;
+        margin-left: 0%;
+    }
+    
+    .sliderTech-image {
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    .sliderTech-image img {
+        position: absolute;
+        top: 5%;
+        width: 100%;
+        max-width: 100%;
+        height: 37%;
+    }
+    
+    #title-tech-span{
+        font-weight: 600;
+        color: #929292; 
+    }
+    #title-tech{
+        position: relative;
+        letter-spacing: 3px;
+        font-size: 1.2em;
+        margin-left: 5%;
+        margin-top: 3%;
+    }
+    #image-tech{
+    display: none;
+    }
+    .image-selected{
+    display: block;
+    }
+
+}
+/* AJUSTANDO O TAMANHO APENAS PARA CONSERTAR ALGUNS BUGS === */
+@media (min-width: 715px){
+    .btn-explore{
+        padding: 25% 15%; /* Apenas para ajustar o tamanho do botao*/ 
+    }
+}

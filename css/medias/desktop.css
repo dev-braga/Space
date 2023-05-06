@@ -1,0 +1,81 @@
+/* -------------- NAV BAR DESKTOP ------------------------------ */
+
+
+/* Desktop Medias menores ======================= */
+@media (max-width: 1366px){
+    /* 
+        SESSÃO HOME ======= SESSÃO HOME ======== ======= SESSÃO HOME ========
+    */
+    
+    /* 
+     === SESSÃO DESTINATION ====== SESSÃO DESTINATION ====== SESSÃO DESTINATION ======
+    */
+    
+    .container-img-destination{
+        grid-area: img;
+        height: 90vh;
+        padding-left:40%;
+    }
+    .container-text-destination .title h1{
+        font-size: 6em;
+    }
+
+    .container-abas a{
+        font-size: 12px;
+        margin-right: 30px;
+    }
+    .text-info {
+        width: 70%;
+        font-size: 12px;
+    }
+    .text-info p{
+        color: #fff;
+    }
+    #info-distance{
+        font-size: 20px;
+    } 
+    #info-meses{
+        font-size: 20px;
+    } 
+    .container-right{
+        margin-top: -12%;
+        margin-left: 19%;
+    }
+    .container-img-destination{
+        margin-top: -8%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .img-style{
+        width: 85%;
+    }
+    .title-destination{
+        font-size: 1.3em;
+        margin-top: 2.5em;
+        margin-left: 7%;
+    }
+    .info-bottom-column1 h2{
+        
+    }
+    .info-bottom-column2 h2{
+       
+    }
+  /* ======================================================================== */
+  /*
+    === CONTAINER CREW ====== === CONTAINER CREW ====== === CONTAINER CREW ======
+*/
+
+
+
+}
+
+
+
+  /* BIG DESKTOP ======================= */  
+  @media (max-width: 1366px) { 
+  }
+  @media (min-width: 1800px){
+    
+  }
