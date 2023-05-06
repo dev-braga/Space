@@ -34,7 +34,7 @@
     #toggle-button-open{
         display: block;
         position: absolute;
-        top: 4%;
+        top: 3%;
         right: 8%;
         text-align: center;
         border: none;
@@ -60,7 +60,8 @@
         margin-right: -550px; /* PROPRIEDADE PARA ENTRADA DO MENU*/
         transition: all 0.2s;
         background-color:  rgba(247, 239, 239, 0.034);
-        backdrop-filter: blur(20px);
+        backdrop-filter: blur(30px) contrast(110%);
+        -webkit-backdrop-filter: blur(30px) contrast(110%);
     }
     section nav ul label{
         display: flex;
