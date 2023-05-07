@@ -325,7 +325,7 @@
     .slider-container {
         display: flex;
         width: 100%;
-        height: 88vh;
+        height: 100vh;
     }
     
     .slider-item {
@@ -381,9 +381,9 @@
     }
     
     .slider-image {
-        position: fixed;
+        position: absolute;
         transform: translateX(-50%);
-        top: 13%;
+        top: 5%;
         height: 35%;
         width: 50%;
     }
@@ -405,7 +405,7 @@
         width: 13px;
         height: 13px;
         border-radius: 50%;
-        background-color: #5c5c5c;
+        background-color: #6d6d6d;
         margin: 0 8px;
         cursor: pointer;
     }
@@ -416,8 +416,8 @@
         background-color: #fff;
     }
     .line-mobile{
-        position: fixed;
-        top: 48%;
+        position: absolute;
+        top: 40%;
         height: 1px;
         width: 90%;
         background-color: rgba(208, 214, 249, 0.199);
@@ -435,7 +435,7 @@
     }
       
     .sliderTech-buttons {
-        margin-top: 50%;
+        margin-top: 65%;
         display: flex;
         flex-direction: row;
         margin-left:0%;
@@ -460,7 +460,7 @@
     }
     
     .sliderTech-content {
-        width: 70%;
+        width: 90%;
     }
     
     .sliderTech-slide {
@@ -486,7 +486,7 @@
         text-transform: uppercase;
         font-family: 'Bellefair';
         color: var(--white);
-        font-size: 3em; 
+        font-size: 2em; 
         font-weight: 200;
     }
     
@@ -515,7 +515,7 @@
         top: 5%;
         width: 100%;
         max-width: 100%;
-        height: 37%;
+        height: 27%;
     }
     
     #title-tech-span{
@@ -523,10 +523,11 @@
         color: #929292; 
     }
     #title-tech{
+        text-align: center;
         position: relative;
         letter-spacing: 3px;
         font-size: 1.2em;
-        margin-left: 5%;
+        margin-left: 0%;
         margin-top: 3%;
     }
     #image-tech{
@@ -546,10 +547,10 @@
         overflow-y: auto;
     }
     .slider-image{
-        top:20%;
+        top:10%;
     }
     .line-mobile{
-        top: 55%;
+        top: 45%;
     }
     .slider-image img{
         width: 90%;
