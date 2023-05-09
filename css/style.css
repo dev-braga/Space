@@ -573,7 +573,7 @@ input[type='checkbox']{
     position: relative;
     display: flex;
     align-items: center;
-    height: 75vh;
+    height: 100vh;
   }
   
   .sliderTech-buttons {

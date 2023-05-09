@@ -54,11 +54,6 @@ slider.addEventListener('touchend', (e) => {
   }
 });
 
-// Desativa temporariamente a interação com touch no slider durante o deslize da página
-slider.addEventListener('touchmove', function(event) {
-  event.preventDefault();
-}, {passive: false});
-
 
 
 // CHAMADA DE ENTRADA DO MENU MOBILE
