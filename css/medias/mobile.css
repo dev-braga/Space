@@ -93,7 +93,7 @@
     }
     
     .item-logo{ /* ESPACAMENTO NA LOGO*/
-        margin-top: 5%;
+        margin-top: 6%;
         margin-left: 2em;
         margin-bottom: 1em;
     }
@@ -354,7 +354,7 @@
     .slider-text {
         position: absolute;
         left: 50%;
-        top: 70%;
+        top: 58%;
         transform: translate(-50%, -50%);
         flex-direction: column;
         text-align: center;
@@ -390,7 +390,7 @@
     .slider-image {
         position: absolute;
         transform: translateX(-50%);
-        top: 5%;
+        top: 0%;
         height: 35%;
         width: 50%;
     }
@@ -402,7 +402,7 @@
     
     .slider-dots {
         position: absolute;
-        top: 48%;
+        top: 38%;
         left: 50%;
         transform: translateX(-50%);
         display: flex;
@@ -424,7 +424,7 @@
     }
     .line-mobile{
         position: absolute;
-        top: 40%;
+        top: 35%;
         height: 1px;
         width: 90%;
         background-color: rgba(208, 214, 249, 0.199);
@@ -563,10 +563,10 @@
         width: 90%;
     }
     .slider-dots{
-        top: 53%;
+        top: 48%;
     }
     .slider-text{
-        top: 83%;
+        top: 68%;
     }
     .slider-text p{
         font-size: 14px;
