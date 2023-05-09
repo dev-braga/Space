@@ -81,13 +81,17 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-left: 0;
       }
     
     /*== ESTILIZACAO DO BOTAO HOME ======= =====  ==*/
     /*== ESTILIZACAO DO BOTAO HOME ======= =====  ==*/
     /*== ESTILIZACAO DO BOTAO HOME ======= =====  ==*/
     .btn-explore{
-        padding: 30% 20%;
+        width: 15em;
+        height: 15em;
+        padding: 0;
+        margin: 0;
     }
     .btn-explore h2{
         font-weight: 400;

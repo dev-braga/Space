@@ -22,6 +22,12 @@ body{
     width: 100%;
     background-color: #0B0D17;
 }
+#logo{
+  background: transparent;
+}
+#logo:hover{
+  cursor: pointer;
+}
 nav label{
     order: 2;
     background-color: aliceblue;
@@ -226,6 +232,7 @@ section .section-home h3{
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 2em;
     padding-left: 35%;
+    white-space: nowrap;
 }
 section .section-home h1{
     width: 100%;
@@ -244,15 +251,22 @@ section .section-home p{
     color: var(--light-purple);
 }
 .container-explore{
-  width: 50%;
+  width: auto;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .btn-explore{
+  width: 20em;
+  height: 20em;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items:center;
   background-color: #fff;
-  padding: 12% 8% 12% 8%;
   border-radius: 50%;
   font-family: 'Bellefair', sans-serif;
 }

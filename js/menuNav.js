@@ -206,7 +206,7 @@ function mudarImage4(){
     }
 }
 
-window.addEventListener('load',  ()=>{
+window.addEventListener('load',  ()=> {
     tabActive.style.display = "block";
     item1.style.background = "#fff"
 

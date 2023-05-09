@@ -177,6 +177,7 @@
       }
 
       .container-explore{
+        margin: 0;
         width: 50%;
         display: flex;
         flex-direction: column;
@@ -188,7 +189,8 @@
     /*== ESTILIZACAO DO BOTAO HOME ======= =====  ==*/
     /*== ESTILIZACAO DO BOTAO HOME ======= =====  ==*/
     .btn-explore{
-        padding: 30% 15%;
+       height: 10em;
+       width: 10em;
     }
     .btn-explore h2{
         font-weight: 400;
@@ -563,5 +565,8 @@
     }
     .slider-text p{
         font-size: 14px;
+    }
+    .container-explore{
+        margin-bottom: 3%;
     }
 }
