@@ -34,6 +34,7 @@
           align-items:center;
       }
       
+    
 }
 
 @media only screen and (max-width: 1920px){
@@ -352,4 +353,5 @@
       section .section-home p{
         font-size: 1.5rem;
       }
+      
   }

@@ -423,7 +423,9 @@
     .image-selected{
     display: block;
     }
-
+    .sliderTech-container {
+        height: 90vh;
+    }
 }
 /* AJUSTANDO O TAMANHO APENAS PARA CONSERTAR ALGUNS BUGS === */
 @media (min-width: 715px){
